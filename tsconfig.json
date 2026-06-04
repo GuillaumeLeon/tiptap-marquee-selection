@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "strict": true,
+    "jsx": "react-jsx",
+    "importHelpers": true,
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "allowJs": true,
+    "checkJs": false,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["**/node_modules", "**/dist", "**/example", "**/src/helper.ts"],
+}

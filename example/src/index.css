@@ -1,0 +1,153 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --purple-light: #cbc3e3;
+    --gray-2: #edebeb;
+    --gray-3: #cfcccc;
+}
+/* Basic editor styles */
+.tiptap {
+    :first-child {
+        margin-top: 0;
+    }
+
+    min-height: 400px;
+    padding: 32px;
+
+    /* List styles */
+    ul,
+    ol {
+        padding: 0 1rem;
+        margin: 1.25rem 1rem 1.25rem 0.4rem;
+
+        li p {
+            margin-top: 0.25em;
+            margin-bottom: 0.25em;
+        }
+    }
+
+    /* Heading styles */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.1;
+        margin-top: 2.5rem;
+        text-wrap: pretty;
+    }
+
+    h1,
+    h2 {
+        margin-top: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4,
+    h5,
+    h6 {
+        font-size: 1rem;
+    }
+
+    /* Code and preformatted text styles */
+    code {
+        background-color: var(--purple-light);
+        border-radius: 0.4rem;
+        color: var(--black);
+        font-size: 0.85rem;
+        padding: 0.25em 0.3em;
+    }
+
+    pre {
+        background: var(--black);
+        border-radius: 0.5rem;
+        color: var(--white);
+        margin: 1.5rem 0;
+        padding: 0.75rem 1rem;
+
+        code {
+            background: none;
+            color: inherit;
+            font-size: 0.8rem;
+            padding: 0;
+        }
+    }
+
+    blockquote {
+        border-left: 3px solid var(--gray-3);
+        margin: 1.5rem 0;
+        padding-left: 1rem;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid var(--gray-2);
+        margin: 2rem 0;
+    }
+}
+
+.ProseMirror-selectednoderange {
+    position: relative;
+}
+
+img.ProseMirror-selectednoderange {
+    position: relative;
+    outline: 0.4rem solid rgba(35, 131, 226, 0.14);
+}
+
+.ProseMirror-selectednoderange:after {
+    content: "";
+    position: absolute;
+    left: -0.4rem;
+    right: -0.4rem;
+    top: -0.4rem;
+    bottom: -0.4rem;
+    background: rgba(35, 131, 226, 0.14);
+    pointer-events: none;
+
+    z-index: 10;
+    border-radius: 4px;
+    opacity: 1;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    transition-property: opacity;
+}
+
+li.ProseMirror-selectednoderange:after {
+    left: -2rem;
+}
+/* While dragging, disable text selection on the editor */
+.ProseMirror.is-dragging-selection {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    cursor: default; /* Optional: force default cursor instead of text beam */
+}
+
+/* Hide cursor when blocks are selected */
+.ProseMirror:has(.is-selected-block) .ProseMirror-cursor {
+    display: none;
+}
+.ProseMirror:has(.ProseMirror-selectednoderange) .ProseMirror-cursor {
+    display: none;
+}
+.marquee-overlay {
+    position: fixed;
+    /* Use a transparent version of the final selection color */
+    background: rgba(35, 131, 226, 0.14); /* #1e212a with opacity */
+    border: 1px solid rgba(35, 131, 226, 0.14);
+    pointer-events: none;
+    z-index: 9999;
+}
