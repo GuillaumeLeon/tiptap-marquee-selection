@@ -1,6 +1,6 @@
 {
   "name": "@jeunecouy/tiptap-marquee-selection",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Notion like marquee selection for TipTap",
   "license": "MIT",
   "type": "module",
@@ -17,8 +17,7 @@
     ".": {
       "import": "./dist/tiptap-marquee-selection.js",
       "require": "./dist/tiptap-marquee-selection.umd.cjs"
-    },
-    "./src/index.d.ts": "./dist/index.d.ts"
+    }
   },
   "devDependencies": {
     "@tiptap/core": "^3.25.0",

@@ -267,10 +267,10 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
-"@jeunecouy/tiptap-marquee-selection@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@jeunecouy/tiptap-marquee-selection/-/tiptap-marquee-selection-0.0.1.tgz#50f4255d775b7f510f48c8ce9489a8e3c36d8d42"
-  integrity sha512-TqlbQIRUjT9WVzm8u24v5Ir//K/KHM1E70n1XX1u8t+/YNStyEKHe54wm1oQpEjo3fOkkuqpVIXzVG7YYyS1RQ==
+"@jeunecouy/tiptap-marquee-selection@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/@jeunecouy/tiptap-marquee-selection/-/tiptap-marquee-selection-0.0.2.tgz#febf87f655ddb679c9358df9dc47680ea8161aa6"
+  integrity sha512-mm9dWPYk9MUi2R0QLkPB9rIEvnyL773x5EDhMHAc6rC0DZ5HGek6fNyuYjI0uf8OtfiEuE8oORTCeeKUHTgF2Q==
 
 "@jridgewell/gen-mapping@^0.3.12", "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.13"
