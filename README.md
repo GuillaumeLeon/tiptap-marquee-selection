@@ -56,8 +56,7 @@ extensions: [
 
 .marquee-overlay {
     position: fixed;
-    /* Use a transparent version of the final selection color */
-    background: rgba(35, 131, 226, 0.14); /* #1e212a with opacity */
+    background: rgba(35, 131, 226, 0.14);
     border: 1px solid rgba(35, 131, 226, 0.14);
     pointer-events: none;
     z-index: 9999;
