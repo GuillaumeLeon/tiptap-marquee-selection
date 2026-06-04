@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base: '/<REPO>/'
+  base: '/tiptap-marquee-selection/'
 })
