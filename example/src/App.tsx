@@ -9,9 +9,6 @@ export const App = () => {
   const editor = useEditor({
     extensions: [StarterKit, MarqueeSelection, NodeRange],
     content: "<p>Hello World!</p>",
-    onSelectionUpdate: ({ editor: e }) => {
-      console.log(e.state.selection, e instanceof NodeRangeSelection);
-    },
   });
 
   return (
