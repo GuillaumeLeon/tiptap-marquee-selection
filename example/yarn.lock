@@ -267,11 +267,6 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
-"@jeunecouy/tiptap-marquee-selection@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@jeunecouy/tiptap-marquee-selection/-/tiptap-marquee-selection-0.0.2.tgz#febf87f655ddb679c9358df9dc47680ea8161aa6"
-  integrity sha512-mm9dWPYk9MUi2R0QLkPB9rIEvnyL773x5EDhMHAc6rC0DZ5HGek6fNyuYjI0uf8OtfiEuE8oORTCeeKUHTgF2Q==
-
 "@jridgewell/gen-mapping@^0.3.12", "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.13"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz#6342a19f44347518c93e43b1ac69deb3c4656a1f"
@@ -1549,6 +1544,11 @@ tinyglobby@^0.2.15, tinyglobby@^0.2.17:
   dependencies:
     fdir "^6.5.0"
     picomatch "^4.0.4"
+
+tiptap-marquee-selection@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/tiptap-marquee-selection/-/tiptap-marquee-selection-0.0.1.tgz#7bcc699f1e613e8a51ab37e0a23cd2987362d2a3"
+  integrity sha512-Tf7BGiXOm6O2pfXRepblTcyEaQEV06gl6xRa4PTGVBdT+4rh/fcw3fmydwt20iHlIM8IQwN7ZKrod9dNqN548A==
 
 ts-api-utils@^2.5.0:
   version "2.5.0"

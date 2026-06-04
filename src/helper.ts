@@ -25,6 +25,8 @@ const getResolvedPositions = (doc: Node, from: number) => {
   };
 };
 
+const OVERLAY_CLASSNAME = "marquee-overlay";
+
 export const startMarqueeSelection = (
   view: EditorView,
   startEvent: MouseEvent,
@@ -45,7 +47,7 @@ export const startMarqueeSelection = (
   let scrollFrameId: number | null = null;
 
   const overlay = document.createElement("div");
-  overlay.className = "marquee-overlay";
+  overlay.className = OVERLAY_CLASSNAME;
   document.body.appendChild(overlay);
 
   const selectIntersectingBlocks = (marqueeRect: {
@@ -112,11 +114,11 @@ export const startMarqueeSelection = (
     const containerRect =
       scrollContainer === document.body
         ? {
-            left: 0,
-            top: 0,
-            right: window.innerWidth,
-            bottom: window.innerHeight,
-          }
+          left: 0,
+          top: 0,
+          right: window.innerWidth,
+          bottom: window.innerHeight,
+        }
         : scrollContainer.getBoundingClientRect();
 
     const clippedLeft = Math.max(rawLeft, containerRect.left);

@@ -1,6 +1,6 @@
 {
-  "name": "@jeunecouy/tiptap-marquee-selection",
-  "version": "0.0.3",
+  "name": "tiptap-marquee-selection",
+  "version": "0.0.2",
   "description": "Notion like marquee selection for TipTap",
   "license": "MIT",
   "type": "module",
