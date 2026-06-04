@@ -1545,10 +1545,10 @@ tinyglobby@^0.2.15, tinyglobby@^0.2.17:
     fdir "^6.5.0"
     picomatch "^4.0.4"
 
-tiptap-marquee-selection@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/tiptap-marquee-selection/-/tiptap-marquee-selection-0.0.1.tgz#7bcc699f1e613e8a51ab37e0a23cd2987362d2a3"
-  integrity sha512-Tf7BGiXOm6O2pfXRepblTcyEaQEV06gl6xRa4PTGVBdT+4rh/fcw3fmydwt20iHlIM8IQwN7ZKrod9dNqN548A==
+tiptap-marquee-selection@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tiptap-marquee-selection/-/tiptap-marquee-selection-0.0.3.tgz#4550b0676d9a0f987073ee8d7f3906a85174990a"
+  integrity sha512-XiOiqgXn2h2vTKdfxyEIVwqWYJEikT0JCykWix9aUnAlwMqgh5QOtfwOHWVIyaCzVUnaQ51j+VSF1yyWzYNHGg==
 
 ts-api-utils@^2.5.0:
   version "2.5.0"
