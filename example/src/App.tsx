@@ -3,7 +3,7 @@
 import { Tiptap, useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { MarqueeSelection } from "@jeunecouy/tiptap-marquee-selection";
-import NodeRange, { NodeRangeSelection } from "@tiptap/extension-node-range";
+import NodeRange from "@tiptap/extension-node-range";
 
 export const App = () => {
   const editor = useEditor({
